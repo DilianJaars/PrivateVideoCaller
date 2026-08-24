@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Teacher Dashboard | PrivateClass</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header class="navbar"><div class="logo">PrivateClass</div><div class="user-menu"><span id="teacherName"></span><button onclick="logout()" class="logout-btn">Logout</button></div></header>
+<main class="dashboard"><div class="dashboard-top"><div><p class="small-title">TEACHER PORTAL</p><h1>Teacher Dashboard</h1><p>Manage meetings and approve students.</p></div><button onclick="createMeeting()" class="btn black-btn">+ Create Meeting</button></div>
+<div class="stats"><div class="stat-card"><p>Active Meetings</p><h2 id="meetingCount">0</h2></div><div class="stat-card"><p>Join Requests</p><h2 id="requestCount">0</h2></div></div>
+<section class="dashboard-section"><h2>Your Meetings</h2><div id="meetings"><p class="empty">No meetings created yet.</p></div></section>
+<section class="dashboard-section"><h2>Student Requests</h2><div id="requests"><p class="empty">No students are waiting.</p></div></section></main><script src="js/app.js"></script></body></html>

@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Student Dashboard | PrivateClass</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header class="navbar"><div class="logo">PrivateClass</div><div class="user-menu"><span id="studentName"></span><button onclick="logout()" class="logout-btn">Logout</button></div></header>
+<main class="dashboard"><div class="dashboard-top"><div><p class="small-title">STUDENT PORTAL</p><h1>Student Dashboard</h1><p>Join your teacher's private meetings.</p></div></div>
+<section class="join-section"><h2>Join a Meeting</h2><p>Enter the meeting code provided by your teacher.</p><div class="join-form"><input id="meetingCode" placeholder="Example: PC-ABC123"><button onclick="requestJoin()" class="btn black-btn">Request to Join</button></div><p id="studentMessage" class="message"></p></section>
+<section class="dashboard-section"><h2>Meeting Status</h2><div id="studentStatus"><p class="empty">No meeting request yet.</p></div></section></main><script src="js/app.js"></script></body></html>
