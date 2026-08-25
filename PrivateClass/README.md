@@ -1,12 +1,5 @@
 # PrivateClass
 
-Open this folder in VS Code.
-
-## Run
-1. Install the VS Code extension **Live Server**.
-2. Open `index.html`.
-3. Right-click it -> **Open with Live Server**.
-
 ## Test
 Create one Teacher account and one Student account in the same browser.
 Because this prototype uses localStorage, both accounts and the meeting data are stored in that browser.
